@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Test Page</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <!-- // <script src="https://s3.amazonaws.com/browser-solc.dappbench.com/browser-solc.js"></script> -->
+        <script src="./browser-solc.js"></script>
+        <script id="testscript" src="./test.js"></script>
+        <link href="./vendor/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <p style="margin-left:105px; margin-top:20px; font-size:25px; font-weight:bold">Browser Solc Demo</p>
+        </header>
+        <div class="container">
+            <div class="col-md-7">
+                <textarea id="source" onclick="this.select()" style="height:500px; width: 600px; display:block; margin-left:20px"></textarea>
+            </div>
+            <div class="col-md-5">
+                <select id="versions" class="form-control" ></select>
+                <button id="test-button" class="btn btn-outline btn-xl" style="margin-top: 20px">compile</button>
+                <p id="status" style="float:right; margin-top:20px"></p>
+                <p style="margin-top:20px">Output: </p>
+                <textarea id="compile-output" onclick="this.select()" style="width:445px; height:360px;" readonly></textarea>
+            </div>
+        </div>
+    </body>
+</html>
