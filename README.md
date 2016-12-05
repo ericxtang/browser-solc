@@ -7,7 +7,7 @@ Solc is the solidity compiler.  It usually runs on the Ethereum node.  But it ca
 ##Usage:
 ```html
 <!-- Include this in your HTML page -->
-<script src="https://code.dappbench.com/code/browser-solc.min.js" type="text/javascript"></script>
+<script src="http://code.dappbench.com/browser-solc.min.js" type="text/javascript"></script>
 
 ```
 
@@ -17,7 +17,7 @@ Solc is the solidity compiler.  It usually runs on the Ethereum node.  But it ca
 BrowserSolc.getVersions(function(soljsonSources, soljsonReleases) {
   console.log(soljsonSources);
   console.log(soljsonReleases);
-}
+});
 
 //Load a specific compiler version
 BrowserSolc.loadVersion("soljson-v0.4.6+commit.2dabbdf0.js", function(compiler) {
@@ -25,7 +25,7 @@ BrowserSolc.loadVersion("soljson-v0.4.6+commit.2dabbdf0.js", function(compiler) 
   optimize = 1;
   result = compiler.compile(getSourceCode(), optimize);
   console.log(result);
-}
+});
 ```
 
 
