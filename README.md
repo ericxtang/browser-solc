@@ -28,4 +28,8 @@ BrowserSolc.loadVersion("soljson-v0.4.6+commit.2dabbdf0.js", function(compiler) 
 }
 ```
 
+
+##Development
+To build browser-solc.js, run `browserify src/index.js -g yo-yoify -o browser-solc.js; babel browser-solc.js --out-file browser-solc.js`
+
 Note: browser-solc does NOT implement the whole interface of solc-js.  
