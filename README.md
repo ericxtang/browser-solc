@@ -6,7 +6,7 @@ You should use browser-solc if you:
 * Want to do solc.compile() in your Dapp
 * Don't want to worry about browserify the solc-js npm package
 
-[Demo app](https://s3.amazonaws.com/browser-solc.dappbench.com/index.html)
+###[Demo app](https://s3.amazonaws.com/browser-solc.dappbench.com/index.html)
 
 ##Usage:
 ```html
