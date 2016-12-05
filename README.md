@@ -1,8 +1,8 @@
 # browser-solc
 
-Solc is the solidity compiler.  It usually runs on the Ethereum node.  But it can also run in the browser.  This repo is a wrapper that helps you do that.
+Solc is the solidity compiler.  It usually runs on the Ethereum node.  But it can also run in the browser.  This repo is a wrapper that helps you do that.  browser-solc is a browserified version of [solc-js](https://github.com/ethereum/solc-js).  
 
-browser-solc is a browserified version of [solc-js](https://github.com/ethereum/solc-js).  
+[Demo app](https://s3.amazonaws.com/browser-solc.dappbench.com/index.html)
 
 ##Usage:
 ```html
