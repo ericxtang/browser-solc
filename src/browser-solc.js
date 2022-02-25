@@ -43,7 +43,7 @@ function loadVersion(version, callback) {
 
 // Also loads global variables called "soljsonSources" and "soljsonReleases"
 function getVersions(callback) {
-    var url = "https://ethereum.github.io/solc-bin/bin/list.js";
+    var url = "https://raw.githubusercontent.com/ethereum/solc-bin/gh-pages/bin/list.js";
     loadScript("solc-list", url, function() {
         callback(soljsonSources, soljsonReleases);
     });
